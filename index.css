@@ -1,0 +1,94 @@
+*{box-sizing:border-box;}
+:root{
+   --primaryColor:#2078a8;
+   --primaryLight:#5da7da;
+   --primaryDark:#004c79;
+   --secondaryColor:#32a4a8;
+   --secondaryLight:#6cd6d9;
+   --secondaryDark:#007579;
+ }
+ .template{
+   background-color: var(--primaryColor);
+   color: var(--secondaryColor);
+ }
+ .title{
+   background-color: var(--secondaryColor);
+   text-align: center;
+   color: Var(--secondaryLight);
+   padding: 15px 0px;
+ }
+ body{
+   background-color: Var(--primaryColor)
+ }
+ .navbar{
+   list-style-type: none;
+ }
+ .navbar li a {
+   display: block;
+   padding: 8px 16px;
+   color: Var(--primaryLight);
+   background-color: var(--primaryDark);
+   width: 15%;
+   text-decoration:none;
+ }
+ /* Change the link color when is active*/
+ .navbar li a:hover{
+   background-color: Var(--primaryColor);
+   color: white;
+ }
+ .figure1{
+   width: 100%;
+   position:relative;
+   margin-left: auto;
+   margin-right: auto;
+ }
+ .img11{
+   width: 100%;
+ }
+ .text1{
+   position: absolute;
+   background-color: rgba(50,50,50,0.5);
+   color: lightgray;
+   top: 200px;
+   right: 60%;
+   left: 5%;
+   padding: 50px;
+   font-size: 30px;
+   text-align: left;
+   font-family: "Bradley Hand ITC";
+}
+.text2{
+  position: absolute;
+  background-color: rgba(50,50,50,0.5);
+  color: lightgray;
+  top: 100px;
+  bottom: 80%;
+  right:20%;
+  left: 20%;
+  padding: 50px;
+  font-size: 30px;
+  text-align: center;
+  font-family: "Bradley Hand ITC";
+}
+.text3{
+  position: absolute;
+  background-color: rgba(50,50,50,0.5);
+  filter: sepia(90%);
+  color: lightgray;
+  top: 60%;
+  bottom: 20%;
+  right: 10%;
+  left: 10%;
+  padding: 50px;
+  font-size: 30px;
+  text-align: center;
+  font-family: "Bradley Hand ITC";
+
+}
+/* footer */
+footer{
+  text-align:center;
+  font-size: 12px;
+  border-top: ridge 2px gray;
+  padding: 15px;
+}
